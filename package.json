@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@gecka/styleflux": "^1.2.0-gecka2"
+  }
+}
