@@ -1,5 +1,5 @@
 {
-  "name": "@zakaria/jellyflix",
+  "name": "@zakariaa/jellyflix",
   "version": "0.0.1",
   "description": "A netflix for jellyfin made with SASS",
   "files": [
@@ -16,7 +16,7 @@
     "pub:prerelease": "np prerelease --no-tests --tag nightly --branch SASSify",
     "pub:patch": "np patch --no-tests --tag latest --branch SASSify",
     "pub:minor": "np minor --no-tests --tag latest --branch SASSify",
-    "pub:major": "np major --no-tests --tag latest --branch SASSify"
+    "pub:major": "np major --no-tests --tag latest --branch main"
   },
   "np": {
     "yarn": false,
