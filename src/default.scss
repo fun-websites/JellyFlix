@@ -1150,7 +1150,6 @@ label.selectLabel {
 }
 
 
-
 .cardOverlayButton[data-action="resume"] {
   border: 2px solid var(--accent);
 }
@@ -1425,7 +1424,10 @@ label.selectLabel {
   transition: all 0.15s;
 }
 
-
+.paper-icon-button-light:hover:not(:disabled) {
+  color: var(--accent);
+  background: rgb(20, 20, 20);
+}
 
 .button-flat {
   border-radius: var(--rounding) !important;
