@@ -20,6 +20,7 @@
   },
   "np": {
     "yarn": false,
+    "releaseDraft": true,
     "anyBranch": true
   },
   "devDependencies": {
