@@ -1,6 +1,6 @@
 {
   "name": "@zakariaa/jellyflix",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A netflix for jellyfin made with SASS",
   "files": [
     "/dist"
