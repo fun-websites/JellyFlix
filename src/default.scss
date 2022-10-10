@@ -1424,10 +1424,6 @@ label.selectLabel {
   transition: all 0.15s;
 }
 
-.paper-icon-button-light:hover:not(:disabled) {
-  color: var(--accent);
-  background: rgb(20, 20, 20);
-}
 
 .button-flat {
   border-radius: var(--rounding) !important;
@@ -1686,11 +1682,7 @@ h2 {
   right: 1em;
 }
 
-@media (min-width: 100em) {
-  .headerTabs {
-    margin-top: -3.3em;
-  }
-}
+
 
 .emby-tab-button {
   position: relative;
