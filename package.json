@@ -1,6 +1,6 @@
 {
   "name": "@zakariaa/jellyflix",
-  "version": "1.0.2",
+  "version": "1.0.3-0",
   "description": "A netflix for jellyfin made with SASS",
   "files": [
     "/dist"
@@ -49,5 +49,4 @@
     "url": "https://github.com/fun-website/JellyFlix/issues"
   },
   "homepage": "https://github.com/fun-website/JellyFlix#readme"
-  
 }
