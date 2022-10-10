@@ -9,7 +9,7 @@
   "scripts": {
     "watch:sass": "sass  --no-source-map --watch src/:dev/",
     "serve": "browser-sync start --server dev --files dev",
-    "build": "sass src/:dist/",
+    "build": "sass netflix.scss:dist/netflix.css",
     "postbuild": "postcss dist/*.css -u autoprefixer cssnano -r",
     "postbuild:dev": "postcss dev/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all --parallel watch:sass postbuild:dev serve",
@@ -35,17 +35,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prayag17/JellySkin.git"
+    "url": "git+https://github.com/fun-website/JellyFlix.git"
   },
   "keywords": [
     "jellyfin",
     "css",
-    "jellyskin"
+    "JellyFlix"
   ],
-  "author": "prayag17",
+  "author": "Zakaria Aourzag",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/prayag17/JellySkin/issues"
+    "url": "https://github.com/fun-website/JellyFlix/issues"
   },
-  "homepage": "https://github.com/prayag17/JellySkin#readme"
+  "homepage": "https://github.com/fun-website/JellyFlix#readme"
 }
