@@ -1149,10 +1149,7 @@ label.selectLabel {
   border-radius: 0 !important;
 }
 
-.paper-icon-button-light.cardOverlayButton {
-  background: rgb(20, 20, 20);
-  border-radius: 100% !important;
-}
+
 
 .cardOverlayButton[data-action="resume"] {
   border: 2px solid var(--accent);
@@ -1428,10 +1425,7 @@ label.selectLabel {
   transition: all 0.15s;
 }
 
-.paper-icon-button-light:hover:not(:disabled) {
-  color: var(--accent);
-  background: rgb(20, 20, 20);
-}
+
 
 .button-flat {
   border-radius: var(--rounding) !important;
@@ -1741,7 +1735,7 @@ h2 {
 .listItemImageButton,
 .listItemButton,
 .headerButton,
-
+.paper-icon-button-light,
 .innerCardFooter,
 .blurhash-canvas,
 .actionSheetMenuItem:hover,
