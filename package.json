@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fun-website/JellyFlix.git"
+    "url": "git+https://github.com/fun-websites/JellyFlix.git"
   },
   "keywords": [
     "jellyfin",
