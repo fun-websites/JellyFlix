@@ -40,35 +40,6 @@ fieldset.verticalSection.verticalSection-extrabottompadding {
   border-color: #4d4d4d;
 }
 
-/*Square Cards and Portrait Cards*/
-
-#loginPage .squareCard {
-  width: 50% !important;
-  background: rgb(20, 20, 20) !important;
-  transform: none !important;
-}
-
-#loginPage .cardText {
-  opacity: 1;
-}
-
-.emby-input:focus,
-.emby-textarea:focus,
-.emby-select:focus {
-  border-color: var(--accent) !important;
-  transform: none !important;
-}
-
-.selectArrowContainer {
-  top: 0.9em;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-#itemDetailPage button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast {
-  border-radius: var(--rounding);
-}
 
 /*cardbox border-radius change*/
 
