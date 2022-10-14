@@ -23,54 +23,54 @@
   overflow-x: hidden;
 }
 
-/* General focus element color */
+// /* General focus element color */
 
-.layout-tv .paper-icon-button-light.show-focus:focus {
-  color: var(--accent) !important;
-}
+// .layout-tv .paper-icon-button-light.show-focus:focus {
+//   color: var(--accent) !important;
+// }
 
-.emby-button.show-focus:focus {
-  background: var(--accent) !important;
-}
+// .emby-button.show-focus:focus {
+//   background: var(--accent) !important;
+// }
 
-/*fieldset*/
+// /*fieldset*/
 
-fieldset.verticalSection.verticalSection-extrabottompadding {
-  border-radius: var(--rounding);
-  border-color: #4d4d4d;
-}
+// fieldset.verticalSection.verticalSection-extrabottompadding {
+//   border-radius: var(--rounding);
+//   border-color: #4d4d4d;
+// }
 
 
-/*cardbox border-radius change*/
+// /*cardbox border-radius change*/
 
-#indexPage button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
-.emby-scroller button.cardImageContainer.coveredImage.cardContent,
-.childrenItemsContainer button.cardImageContainer.coveredImage.cardContent,
-.nextUpItems button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
-.vertical-wrap button.cardImageContainer.coveredImage.cardContent,
-.emby-scroller button.cardImageContainer {
-  border-radius: var(--rounding) var(--rounding) 0px 0px !important;
-}
+// #indexPage button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+// .emby-scroller button.cardImageContainer.coveredImage.cardContent,
+// .childrenItemsContainer button.cardImageContainer.coveredImage.cardContent,
+// .nextUpItems button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+// .vertical-wrap button.cardImageContainer.coveredImage.cardContent,
+// .emby-scroller button.cardImageContainer {
+//   border-radius: var(--rounding) var(--rounding) 0px 0px !important;
+// }
 
-.cardBox:not(.visualCardBox) .cardPadder,
-.cardContent-shadow {
-  box-shadow: none;
-}
+// .cardBox:not(.visualCardBox) .cardPadder,
+// .cardContent-shadow {
+//   box-shadow: none;
+// }
 
-.checkboxOutline {
-  background: #737373 !important;
-  border: none !important;
-}
+// .checkboxOutline {
+//   background: #737373 !important;
+//   border: none !important;
+// }
 
-span.material-icons.checkboxIcon.checkboxIcon-checked.check {
-  background: #eee;
-  color: black;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-}
+// span.material-icons.checkboxIcon.checkboxIcon-checked.check {
+//   background: #eee;
+//   color: black;
+//   width: 100%;
+//   height: 100%;
+//   align-items: center;
+//   justify-content: center;
+//   font-weight: 900;
+// }
 
 /*Theming video page*/
 
@@ -2000,11 +2000,7 @@ div:not(.paperList) .listItem {
   background: rgb(20, 20, 20);
 }
 
-.listItemImageButton.itemAction.paper-icon-button-light {
-  opacity: 0;
-  color: var(--accent);
-  transition: all 0.2s;
-}
+
 
 .layout-mobile .listItemImageButton.itemAction.paper-icon-button-light {
   opacity: 100% !important;
